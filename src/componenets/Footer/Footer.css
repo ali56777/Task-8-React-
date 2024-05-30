@@ -1,0 +1,224 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background-color: #282828;
+    padding-left: 33px;
+    padding-right: 33px;
+    font-size: 17px;
+    font-family: light;
+    line-height: 20px;
+}
+
+.footer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    padding-top: 15px;
+}
+
+.contact1 {
+    width: 30%;
+}
+.contact1, .contact2, .contact3, .contact4, .contact5 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.contact5 {
+    margin-top: 33px;
+    text-align: center;
+}
+
+.contact2,
+.contact3,
+.contact4 {
+    padding-top: 40px;
+}
+
+.contact2 .sales,
+.contact3 .customer,
+.contact4 .useful,
+.contact5 .tuch {
+
+    font-family: light;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 9px;
+    margin-top: 21px;
+}
+
+.contact2 .public,
+.contact3 .human {
+
+    font-family: light;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 9px;
+    margin-top: 21px;
+}
+
+.site {
+    margin-top: 40px;
+    margin-bottom: 9px;
+}
+
+.site p {
+    padding-bottom: 10px;
+}
+
+.contact2 span,
+.contact3 span,
+.contact4 span ,.contact5 span{
+    display: block;
+}
+.contact5 a{
+    padding-right: 5px;
+    color:#fff ;
+}
+
+.rights {
+    text-align: left;
+    padding: 20px 33px 23px;
+    position: relative;
+    overflow: hidden;
+background-color: #282828;}
+
+
+.rights .liner {
+    width: 61vw;
+    height: 1px;
+    display: inline-block;
+    background-color: #fffcff;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 25px;
+}
+
+
+
+
+
+
+@media (min-width:993px) and (max-width:1200px) {
+.contact1 {
+    width: 25%;
+}
+
+.site p {
+
+    font-size: 14px;
+}
+
+.contact2,
+.contact3,
+.contact4 {
+    padding-top: 42px;
+}
+
+.contact2 .sales,
+.contact3 .customer,
+.contact4 .useful,
+.contact5 .tuch {
+    font-size: 14px;
+}
+
+.contact2 .public,
+.contact3 .human {
+    font-size: 14px;
+}
+
+.contact5 {
+    margin-top: 80px;
+}
+
+}
+
+
+@media (min-width:769px) and (max-width:992px) {
+
+.contact1 {
+    width: 25%;
+}
+
+.site p {
+
+    font-size: 13px;
+}
+
+.contact2 .sales,
+.contact3 .customer,
+.contact4 .useful,
+.contact5 .tuch {
+
+    font-size: 15px;
+
+}
+
+.contact2 .public,
+.contact3 .human {
+
+    font-size: 17px;
+
+}
+
+.contact5 {
+    margin-top: 100px;
+
+}
+.contact2 span,
+.contact3 span,
+.contact4 span,
+.contact5 span {
+    font-size: 14px;
+}
+
+}
+
+@media (min-width:577px) and (max-width:768px) {
+
+
+.footer{
+    margin-top: 20px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px 25px;
+}
+.contact1{
+    width: 50%;
+}
+.contact5 {
+    padding-left: 145px;
+}
+
+
+}
+
+@media (min-width:300px) and (max-width:576px) {
+
+
+.footer{
+
+                    margin-top: 20px;
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        grid-gap: 10px 25px;
+}
+.site{
+    width: 70px;
+}
+.site p{
+    font-size: 16px;
+        margin-bottom: 5px;
+        display: inline-block;
+}
+
+
+
+}
